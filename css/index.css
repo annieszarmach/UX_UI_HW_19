@@ -1,0 +1,258 @@
+.navigation {
+    font-family: avenir;
+    font-weight:medium;
+    font-size:20px;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    list-style-type:none ;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    margin-top:-100px;
+
+}
+
+#navBar {
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+
+.logo-image{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    display:inline;
+}
+
+.logohead{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.headerbutton{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:-65px;
+    margin-bottom:100px;
+}
+
+.button{
+
+   background: #95512b 0% 0% no-repeat padding-box;
+   border: 1px solid #95512b;
+   border-radius:48px; 
+   font-family:avenir;
+   text-align: center;
+   letter-spacing:3px;
+   color:#ffffff;
+   text-transform:uppercase;
+   font-size:20px;
+   font-weight:book;
+   padding:7px 18px;
+}
+
+h1{
+font-family: avenir;
+text-align:left;
+letter-spacing:8px;
+text-transform:uppercase;
+font-weight:bold;
+font-size:80px;
+}
+
+h2{
+    font-family:avenir;
+    text-align:left;
+    letter-spacing:8.4px;
+    text-transform:uppercase;
+    font-size:40px;
+}
+
+.herotext{
+    font:helvetica;
+    float:left;
+    margin-left:100px;
+    text-align:left;
+    width: 400px;
+}
+
+.heroheadline{
+    display:inline-block;
+    margin-left:50px;
+}
+
+.heroimage{
+    float:right;
+    padding:10px;
+    width:400px;
+    margin-bottom:50px;
+    margin-top:-200px;
+    margin-right:50px;
+}
+
+p{
+    font-family: helvetica;
+}
+
+#mywork{
+    display:inline-block;
+    margin-left:400px;
+    margin-top: 200px;
+    margin-bottom:100px;
+}
+
+#projects{
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+    'pettrek ptphoto'
+    'whirl wphoto'
+    'swag sphoto'
+}
+
+#pettrek{
+    display:grid;
+    grid-area:pettrek;
+    background-color:#ADB7B9;
+    grid-column-start:1;
+    grid-column-end:2;
+    height:100vh;
+}
+
+#ptphoto{
+    display:grid;
+    grid-area:ptphoto;
+    background-image: url("../images/home/pettrek.png");
+    height:100vh;
+    grid-column-start:2;
+    grid-column-end:3;
+    background-repeat:no-repeat;
+}
+
+#whirl{
+    display:grid;
+    grid-area: whirl;
+    background-color:#F3E7DB;
+    grid-column-start:1;
+    grid-column-end:2;
+    height:100vh;
+}
+
+#wphoto{
+    display:grid;
+    grid-area:wphoto;
+    background-image: url("../images/home/whirl.png");
+    height:100vh;
+    grid-column-start:2;
+    grid-column-end:3;
+    background-repeat:no-repeat;
+}
+
+#swag{
+    display:grid;
+    grid-area:swag;
+    background-color:#ECC579;
+    grid-column-start:1;
+    grid-column-end:2;
+    height:100vh;
+
+}
+
+#sphoto{
+    display:grid;
+    grid-area:sphoto;
+    background-image: url("../images/home/swag.png");
+    height:100vh;
+    grid-column-start:2;
+    grid-column-end:3;
+    background-repeat:no-repeat;
+}
+
+.text{
+    margin:10%;
+}
+
+.footerlinks{
+    font-family: avenir;
+    font-weight:medium;
+    font-size:20px;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    list-style-type:none;
+    display:grid;
+    color:#95512B;
+    grid-area:footerlinks;
+    padding:30px;
+    text-decoration: none;
+}
+
+.footerlinks ul{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.footerlogo{
+    width: 150px;
+    height: 150px;
+    display:grid;
+}
+
+.footer-logo{
+    width: 300px;
+    display:grid;
+    grid-area:footerlogo;
+    padding:50px;
+}
+
+.footeremail{
+    display:grid;
+    color:#95512B;
+    grid-area:footeremail;
+    padding:50px;
+}
+
+.footer{
+    display:grid;
+    background-color: #F3E7DB;
+    margin-top:100px;
+    grid-template-rows:auto;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "footerlogo footerlinks footeremail icons";
+
+}
+
+.icons{
+    display:grid;
+    grid-area:icons;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "facebook linkedin instagram";
+    margin-top:50px;
+}
+
+#facebook{
+    background-image:url("../images/facebook.png");
+    background-repeat:no-repeat;
+    grid-area:facebook;
+}
+
+#linkedin{
+    background-image:url("../images/linkedin.png");
+    background-repeat:no-repeat;
+    grid-area:linkedin;
+}
+
+#instagram{
+    background-image:url("../images/instagram.png");
+    background-repeat:no-repeat;
+    grid-area:instagram;
+}
