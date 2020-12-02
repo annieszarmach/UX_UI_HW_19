@@ -141,7 +141,9 @@ p{
 #ptphoto{
     display:grid;
     grid-area:ptphoto;
-    background-image: url("../images/home/pettrek.png");
+    background-image: url("../images/home/pettrek-mockup-refresh.png");
+    background-size:200%;
+    background-position:center;
     height:100vh;
     grid-column-start:2;
     grid-column-end:3;
@@ -160,7 +162,9 @@ p{
 #wphoto{
     display:grid;
     grid-area:wphoto;
-    background-image: url("../images/home/whirl.png");
+    background-image: url("../images/home/whirl-mockup-refresh.png");
+    background-size:200%;
+    background-position:center;
     height:100vh;
     grid-column-start:2;
     grid-column-end:3;
@@ -180,7 +184,8 @@ p{
 #sphoto{
     display:grid;
     grid-area:sphoto;
-    background-image: url("../images/home/swag.png");
+    background-image: url("../images/home/swag-mockup-refresh.png");
+    background-size:100%;
     height:100vh;
     grid-column-start:2;
     grid-column-end:3;
