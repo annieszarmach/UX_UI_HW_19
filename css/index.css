@@ -19,14 +19,16 @@
 
 }
 
+
 .about{
-    border-bottom:none;
     cursor:pointer;
+    text-decoration:none;
 }
 
+
 .mywork{
-    border-bottom:none;
     cursor:pointer;
+    border-bottom: none;
 }
 
 

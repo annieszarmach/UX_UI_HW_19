@@ -35,3 +35,29 @@ fontWeight: ""
 };
 $( this ).css( styles );
 });
+
+$(".about")
+.on( "mouseenter", function() {
+$( this ).css({
+"text-decoration": "underline",
+});
+})
+.on( "mouseleave", function() {
+var styles = {
+textDecoration: ""
+};
+$( this ).css( styles );
+});
+
+$(".mywork")
+.on( "mouseenter", function() {
+$( this ).css({
+"text-decoration": "underline",
+});
+})
+.on( "mouseleave", function() {
+var styles = {
+textDecoration: ""
+};
+$( this ).css( styles );
+});
