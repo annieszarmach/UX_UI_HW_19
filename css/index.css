@@ -19,6 +19,16 @@
 
 }
 
+.about{
+    border-bottom:none;
+    cursor:pointer;
+}
+
+.mywork{
+    border-bottom:none;
+    cursor:pointer;
+}
+
 
 .logo-image{
     width: 150px;
