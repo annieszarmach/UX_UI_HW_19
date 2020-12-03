@@ -4,38 +4,49 @@
   <!-- basic.html -->
   <title>Annie Szarmach</title>
   <meta charset = "UTF-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<nav id="navbar">
-    <div class="logo-image">
-        <img src="images/logo.png" alt="Logo" class="logohead">
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <a class="navbar-brand" href="">
+      <img src="images/logo.png"> 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link mywork" href="#">My Work <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link about" href="#">About</a>
+        </li>
+        <li>
+          <a class="btn btn-primary btn-lg navCTA button" href="#" role="button">Contact</a>
+        </li>
+      </ul>
+     
     </div>
-   <div class="navigation">
-        <p class="mywork">My Work</p>
-        <p class="about">About Me</p>
-   </div>
-   <div class="headerbutton">
-     <button class="button">Contact</button>
-    </div>
-</nav>
+  </nav>
+  <!-- End navigation bar -->
 
-<section class="hero">
-    <div class="herogrid">
-        <h1 class="heroheadline">Hi, I'm Annie</h2>
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="jumboCopy">
+      <h1 class="display-4">Hi, I'm Annie</h1>
+      <p class="lead">I'm a UX Designer passionate about understanding users and creating seamless design to make their lives easier. 
+          <br>
+          <br>Based in Austin, TX.</p>
+      <hr class="my-4">
+      <a class="btn btn-primary btn-lg button" href="#" role="button">View My Work</a>
     </div>
-
-    <div class="herogrid">
-        <img class="heroimage" src="images/home/myphoto.png" alt="Me">
+    <div class="heroimage">
+        <img src="images/home/myphoto.png" id="heroimage">
     </div>
-    <div>
-        <p class="herotext">I'm a UX Designer passionate about understanding users and creating seamless design to make their lives easier. Based in Austin, TX.</p>
-    </div>
-</div>
-  <button class="button" id="mywork">View My Work</button>
-</div>
-</section>
+  </div>
 
 <section id="projects">
     <div id="pettrek" class="griditem">

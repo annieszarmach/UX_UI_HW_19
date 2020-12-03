@@ -8,6 +8,13 @@ $(".button").hover(function(){
 
 });
 
+$(".button").hover(function(){
+    $(this).css("border","#B56B22");
+    }, function(){
+    $(this).css("border","#9F4D20");
+
+});
+
 $(".mywork")
 .on( "mouseenter", function() {
 $( this ).css({
